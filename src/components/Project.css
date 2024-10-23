@@ -1,0 +1,68 @@
+/* Project.css */
+
+#projects {
+    padding: 3rem 2rem; /* Increased padding for better spacing */
+    background-color: #d7eed2; /* Softer background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+    justify-content: center; /* Center the items */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-item {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #47a264; /* Card-like background */
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    margin: 1rem; /* Space between items */
+    padding: 1.5rem; /* Padding inside cards */
+    width: 300px; /* Fixed width for cards */
+    text-align: center; /* Center text */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.project-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+.project-image {
+    max-width: 100%; /* Responsive image */
+    border-radius: 10px; /* Match card rounding */
+}
+
+.project-title {
+    font-size: 1.6rem; /* Title size */
+    margin: 0.5rem 0; /* Space above/below title */
+    color: #47a264; /* Darker color for title */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.project-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem; /* Description size */
+    margin: 0.5rem 0; /* Space above/below description */
+    color: white; /* Slightly lighter color for description */
+}
+
+.project-technologies {
+    font-size: 0.9rem; /* Smaller tech stack size */
+    color: white; /* Lighter color for tech stack */
+    margin-top: 0.5rem; /* Space above technologies */
+}
+#projects h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem; /* Larger font size for emphasis */
+    margin-bottom: 1.5rem; /* Space below the heading */
+    text-align: center; /* Center align the heading */
+    color: #47a264; /* Darker color for better contrast */
+    text-transform: uppercase; /* Uppercase letters for a strong look */
+    letter-spacing: 1px; /* Slightly increased spacing between letters */
+}

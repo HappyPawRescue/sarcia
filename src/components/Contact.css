@@ -1,0 +1,28 @@
+/* Contact.css */
+.contact-section {
+    padding: 2rem; /* Simple padding */
+    background-color: #47a264; /* Light grey background */
+    text-align: center; /* Center align text */
+}
+
+.contact-container {
+    margin: 0 auto; /* Center the container */
+    max-width: 400px; /* Limit the width */
+}
+
+.contact-container h2 {
+    color:  white;
+    font-size: 1.5rem; /* Reasonable font size for the heading */
+    margin-bottom: 1rem; /* Space below the heading */
+}
+
+.contact-container p {
+    color:  rgb(254, 253, 253);
+    margin: 0.5rem 0; /* Space between paragraphs */
+}
+
+
+
+.contact-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

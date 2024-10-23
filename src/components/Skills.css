@@ -1,0 +1,41 @@
+/* Skills.css */
+#skills {
+    padding: 50px;  /* Increased padding for a more spacious layout */
+    background-color: #d7eed2;  /* Light background color for contrast */
+    border-radius: 8px;  /* Rounded corners for a softer look */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 30px; 
+    font-size: 2rem;  
+    color: #47a264;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+#skills ul {
+    list-style-type: none;  /* Remove bullets */
+    padding: 0;
+    max-width: 600px;  /* Maximum width for the list */
+    margin: 0 auto;  /* Center the list on the page */
+}
+
+#skills li {
+    color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #47a264;  /* White background for each skill item */
+    margin: 15px 0;  /* Space between list items */
+    padding: 20px;  /* Padding for the items */
+    border-radius: 5px;  /* Rounded corners for items */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow for items */
+    transition: transform 0.2s;  /* Transition for hover effect */
+}
+
+#skills li:hover {
+    transform: translateY(-3px);
+}
+#skills li strong {
+    color: white;  
+    font-weight: 600;
+}

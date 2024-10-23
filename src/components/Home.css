@@ -1,0 +1,75 @@
+/* Home.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styling for the home container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+/* Styling for the header section */
+.home-header {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.home-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #47a264;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-header h2 {
+  color: #47a264;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-header p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color:#47a264;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for the header image */
+.header-image {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 5px solid white;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .home-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-header h2 {
+    font-size: 1.75rem;
+  }
+
+  .home-header p {
+    font-size: 1.25rem;
+  }
+
+  .header-image {
+    width: 150px;
+  }
+}
